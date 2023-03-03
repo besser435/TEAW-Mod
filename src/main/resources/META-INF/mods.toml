@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="teaw"
+version="0.1.1"
+displayName="TEAW"
+credits="Art by HexdePixel, Theeno74"
+displayURL="https://github.com/besser435"
+authors="brandonusa"
+description='''
+Enhancements for the TEAW Server
+'''
+
+[[dependencies.teaw]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

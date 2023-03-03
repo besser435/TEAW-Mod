@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "teaw:blocks/trollface_non-free",
+    "up": "teaw:blocks/trollface_non-free",
+    "north": "teaw:blocks/trollface_non-free",
+    "east": "teaw:blocks/trollface_non-free",
+    "south": "teaw:blocks/trollface_non-free",
+    "west": "teaw:blocks/trollface_non-free",
+    "particle": "teaw:blocks/trollface_non-free"
+  }
+}

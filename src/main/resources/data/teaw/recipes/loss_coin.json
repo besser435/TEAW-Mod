@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "teaw:coin_blank"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "teaw:loss_coin"
+    }
+  ]
+}

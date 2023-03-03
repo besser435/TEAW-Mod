@@ -1,0 +1,124 @@
+{
+  "mod_elements": [
+    {
+      "name": "DIETCoin",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diet_coin"
+    },
+    {
+      "name": "DIETCoinAdvancement",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diet_coin_advancement"
+    },
+    {
+      "name": "TEAW",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teaw"
+    },
+    {
+      "name": "LossCoin",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loss_coin"
+    },
+    {
+      "name": "CoinBlank",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_blank"
+    },
+    {
+      "name": "CoinBlankRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_blank_recipe"
+    },
+    {
+      "name": "Troll",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll"
+    },
+    {
+      "name": "DeleteTroll",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delete_troll",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "brandonusa",
+      "type": "string",
+      "scope": "world",
+      "value": "brandonusa"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.teaw.troll": "Troll",
+      "itemGroup.tabteaw": "TEAW",
+      "item.teaw.loss_coin": "Loss Coin",
+      "advancements.diet_coin_advancement.descr": "Be a member of DIET",
+      "item.teaw.diet_coin": "DIET Coin",
+      "advancements.diet_coin_advancement.title": "DIET Member",
+      "item.teaw.coin_blank": "Coin Blank"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "teaw",
+    "modName": "TEAW",
+    "version": "0.1.1",
+    "description": "Enhancements for the TEAW Server",
+    "author": "brandonusa",
+    "websiteURL": "https://github.com/besser435",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Art by HexdePixel, Theeno74",
+    "modElementsPackage": "net.besser.teaw",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
