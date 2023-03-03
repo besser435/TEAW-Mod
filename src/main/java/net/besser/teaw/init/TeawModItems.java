@@ -23,7 +23,7 @@ public class TeawModItems {
 	public static final RegistryObject<Item> DIET_COIN = REGISTRY.register("diet_coin", () -> new DIETCoinItem());
 	public static final RegistryObject<Item> LOSS_COIN = REGISTRY.register("loss_coin", () -> new LossCoinItem());
 	public static final RegistryObject<Item> COIN_BLANK = REGISTRY.register("coin_blank", () -> new CoinBlankItem());
-	public static final RegistryObject<Item> TROLL = block(TeawModBlocks.TROLL, null);
+	public static final RegistryObject<Item> TEST_BLOCK = block(TeawModBlocks.TEST_BLOCK, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

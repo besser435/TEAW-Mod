@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "teaw:block/troll"
+      "model": "teaw:block/test_block"
     }
   }
 }

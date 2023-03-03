@@ -14,18 +14,18 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.besser.teaw.block.TrollBlock;
+import net.besser.teaw.block.TestBlockBlock;
 import net.besser.teaw.TeawMod;
 
 public class TeawModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TeawMod.MODID);
-	public static final RegistryObject<Block> TROLL = REGISTRY.register("troll", () -> new TrollBlock());
+	public static final RegistryObject<Block> TEST_BLOCK = REGISTRY.register("test_block", () -> new TestBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			TrollBlock.registerRenderLayer();
+			TestBlockBlock.registerRenderLayer();
 		}
 	}
 }

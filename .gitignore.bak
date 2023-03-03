@@ -18,4 +18,7 @@ run/
 # Other Files (In Eclipse)
 .classpath
 .project
-
+Textures/trollface.png
+src/main/java/net/besser/teaw/block/TrollBlock.java
+elements/Troll.mod.json
+elements/DeleteTroll.mod.json

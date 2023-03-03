@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 @Mod.EventBusSubscriber
-public class DeleteTrollProcedure {
+public class DeleteDevProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
@@ -42,7 +42,7 @@ public class DeleteTrollProcedure {
 					break;
 				} else {
 					if (entity instanceof Player _player) {
-						ItemStack _stktoremove = new ItemStack(TeawModBlocks.TROLL.get());
+						ItemStack _stktoremove = new ItemStack(TeawModBlocks.TEST_BLOCK.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 10000,
 								_player.inventoryMenu.getCraftSlots());
 					}

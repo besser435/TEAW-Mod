@@ -1,5 +1,5 @@
 {
-  "parent": "teaw:block/troll",
+  "parent": "teaw:block/test_block",
   "display": {
     "thirdperson": {
       "rotation": [

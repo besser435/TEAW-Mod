@@ -49,20 +49,12 @@
       "registry_name": "coin_blank_recipe"
     },
     {
-      "name": "Troll",
-      "type": "block",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "troll"
-    },
-    {
-      "name": "DeleteTroll",
+      "name": "DeleteDev",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "delete_troll",
+      "registry_name": "delete_dev",
       "metadata": {
         "dependencies": [
           {
@@ -75,6 +67,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "TestBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_block"
     }
   ],
   "variable_elements": [
@@ -88,13 +88,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.teaw.troll": "Troll",
       "itemGroup.tabteaw": "TEAW",
       "item.teaw.loss_coin": "Loss Coin",
       "advancements.diet_coin_advancement.descr": "Be a member of DIET",
       "item.teaw.diet_coin": "DIET Coin",
       "advancements.diet_coin_advancement.title": "DIET Member",
-      "item.teaw.coin_blank": "Coin Blank"
+      "item.teaw.coin_blank": "Coin Blank",
+      "block.teaw.test_block": "Troll"
     }
   },
   "foldersRoot": {

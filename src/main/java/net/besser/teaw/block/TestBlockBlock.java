@@ -23,9 +23,9 @@ import net.besser.teaw.init.TeawModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class TrollBlock extends Block {
-	public TrollBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.HONEY_BLOCK).strength(0.1f, 10f).lightLevel(s -> 15).speedFactor(1000f)
+public class TestBlockBlock extends Block {
+	public TestBlockBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.HONEY_BLOCK).strength(0.1f, 10f).lightLevel(s -> 15).speedFactor(999f)
 				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -44,7 +44,7 @@ public class TrollBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(TeawModBlocks.TROLL.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(TeawModBlocks.TEST_BLOCK.get(), renderType -> renderType == RenderType.cutout());
 	}
 
 }
