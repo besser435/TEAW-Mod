@@ -25,7 +25,7 @@ import java.util.Collections;
 
 public class TestBlockBlock extends Block {
 	public TestBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.HONEY_BLOCK).strength(0.1f, 10f).lightLevel(s -> 15).speedFactor(999f)
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.HONEY_BLOCK).strength(0.1f, 10f).lightLevel(s -> 15).speedFactor(1000f)
 				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 

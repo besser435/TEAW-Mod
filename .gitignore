@@ -19,3 +19,6 @@ run/
 .classpath
 .project
 
+Textures/test_texture.png
+elements/TestBlock.mod.json
+src/main/java/net/besser/teaw/block/TestBlockBlock.java
